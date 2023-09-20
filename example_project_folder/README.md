@@ -5,7 +5,7 @@ Data from the Demographic Health Surveys (DHS) are used for the analyses.
 
 # Producing Results
 
-To produce the results, use Stata to run the file `Code/run_all.do`.  Details are listed [Analytic Steps]()
+To produce the results, use Stata to run the file `Code/run_all.do`.  Details are listed [below](#analytic-steps)
 
 # Folder Layout
 
