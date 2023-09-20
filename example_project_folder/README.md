@@ -3,11 +3,11 @@
 This project looks at fertility desires and tries to assess changes across cohorts vs. changes with age.
 Data from the Demographic Health Surveys (DHS) are used for the analyses.
 
-# Producing Results
+## Producing Results
 
-To produce the results, use Stata to run the file `Code/run_all.do`.  Details are listed [below](#analytic-steps)
+To produce the results, use Stata to run the file `Code/run_all.do`.  Details are listed [below](#analytic-steps).
 
-# Folder Layout
+## Folder Layout
 
 <pre>
 |-- Data
@@ -32,7 +32,9 @@ To produce the results, use Stata to run the file `Code/run_all.do`.  Details ar
 |-- Tables
 </pre>
 
-# Analytic Steps
+## Analytic Steps
+
+The Stata do-file `Code/run_all.do` performs the following steps...
 
 1. Download the data via the DHS API
    + this is done by sourcing the file `Code/download_data.do`
@@ -49,7 +51,7 @@ To produce the results, use Stata to run the file `Code/run_all.do`.  Details ar
    + figures will be PDf files stored as `Figures/fig_X.pdf`
 
 
-# Project Dependencies
+## Project Dependencies
 
 * The analytic results are generated using Stata version 17
 * Data from the Zambian Demographic Health Surveys are used for the analysis
